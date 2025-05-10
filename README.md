@@ -1,4 +1,4 @@
-# Retreival Based Question Answering System
+# Retrieval Based Question Answering System
 
 
 ## A project with a Streamlit interface that returns the most accurate predefined answer to a given question.
