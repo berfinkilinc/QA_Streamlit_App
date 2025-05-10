@@ -10,5 +10,28 @@
 - FAISS is used to find the most similar question from the dataset.
 - The matched answer is then shown to the user.
 - The project also includes an evaluation script to test the model’s performance.
+  
+
+
+
+#### Here is the design of the application!
+
+![Photo](Images/Photo1.jpg)
+
+#### After a search
+
+![Photo](Images/Photo2.jpg)
+
+#### You can customize the theme settings in the `.streamlit/config.toml`
+
+
+#### How to Run the Project
+- First, install the required libraries with the following command:  `pip install -r requirements.txt`
+- The main file to run the app is `main.py`.
+- The sentence embeddings are already provided in a `.zip` file.
+- These embeddings will be extracted and used in `.pkl` format during the run.
+- To start the app, just run this command in your terminal: `streamlit run main.py`
+- If you want to try different sentence transformer models or change the current one, you can use the `Hugging_Face.ipynb` file for testing.
+
 
 
