@@ -34,4 +34,8 @@
 - If you want to try different sentence transformer models or change the current one, you can use the `Hugging_Face.ipynb` file for testing.
 
 
+Note: I worked on the Hugging_Face.ipynb file in Google Colab. While uploading it to GitHub, I had to clear the cell outputs due to some errors. 
+Therefore, the outputs related to the datasets I used are not visible in the notebook.
+
+
 
