@@ -1,4 +1,4 @@
-# Retreival Based Question Answering System
+# Retrieval Based Question Answering System
 
 
 ## A project with a Streamlit interface that returns the most accurate predefined answer to a given question.
@@ -32,6 +32,10 @@
 - These embeddings will be extracted and used in `.pkl` format during the run.
 - To start the app, just run this command in your terminal: `streamlit run main.py`
 - If you want to try different sentence transformer models or change the current one, you can use the `Hugging_Face.ipynb` file for testing.
+
+
+Note: I worked on the Hugging_Face.ipynb file in Google Colab. While uploading it to GitHub, I had to clear the cell outputs due to some errors. 
+Therefore, the outputs related to the datasets I used are not visible in the notebook.
 
 
 
