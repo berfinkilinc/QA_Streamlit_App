@@ -6,7 +6,7 @@ import pickle
 import faiss
 from zipfile import ZipFile
 
-data = pd.read_csv('data/df_merged.csv')    # combined latest dataset
+data = pd.read_csv('Data/df_merged.csv')    # combined latest dataset
 
 with ZipFile('my-embeddings.zip', 'r') as zip:
     # printing all the contents of the zip file
